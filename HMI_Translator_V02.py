@@ -1,12 +1,3 @@
-"""
-
-Copyright (c) 2024 Kais K. All rights reserved.
-
-This script is proprietary and confidential and may be protected by copyright law.
-You may not reproduce, distribute, or modify this code without the express written
-permission of the copyright holder.
-
-"""
 
 
 def Translate(File_Path,API_Key,Rows,Language,Startrow):
