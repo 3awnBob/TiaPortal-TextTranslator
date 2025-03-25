@@ -10,12 +10,6 @@ def Translate(File_Path,API_Key,Rows,Language,Startrow):
  book = load_workbook(File_Path)
  sheet = book.active
  
- #print(sheet['A3'].value)
- #sheet['B3'].value = 'and you'
- #book.save('Conversation.xlsx')
-
-
-
 
  def translate_word(word, api_key=API_Key):
      url = "https://api-free.deepl.com/v2/translate"
@@ -28,7 +22,7 @@ def Translate(File_Path,API_Key,Rows,Language,Startrow):
      translation = response.json()['translations'][0]['text']
      return translation
 
- #word_to_translate = "Speak German you son of a bitch"
+
 
     # Translate the word
 
